@@ -37,15 +37,13 @@ body {
   background: #00000000;
   touch-action: none;
   z-index: 1;
+  height: 100%;
 }
 
 #canvs {
   background: #000000;
 }
 
-/***************************************/
-
-/***************************************/
 /* Styling Sidebar, sidebar-elements */
 #svgIco1 {
   position: fixed;
@@ -159,34 +157,34 @@ input[type="range"]::-webkit-slider-thumb {
   box-shadow: 5px 5px 5px #00005577 inset, -3px -3px 5px #00000077;
 }
 
-/*
-input[type="color"]{
-position:relative;
--webkit-appearance:none ;
-height:0;
-width:0;
-outline:none;
-background:#0000;
-border:none;
-display:block;
-top:-3px;
-left:10px;
+input[type="color"] {
+  position: relative;
+  -webkit-appearance: none;
+  height: 0;
+  width: 0;
+  outline: none;
+  background: #0000;
+  border: none;
+  display: block;
+  top: -3px;
+  left: 10px;
 }
-input[type="color"]::-webkit-color-swatch-wrapper{
--webkit-appearance:none;
-background:#0000;
-display:block;
-width:0;
-height:0;
+/*begin test*/
+input[type="color"]::-webkit-color-swatch-wrapper {
+  -webkit-appearance: none;
+  background: #0000;
+  display: block;
+  width: 0;
+  height: 0;
 }
-input[type="color"]::-webkit-color-swatch{
--webkit-appearance:none;
-width:24px;
-height:24px;
-display :block;
-border:solid 2px #aaa;
+input[type="color"]::-webkit-color-swatch {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  display: block;
+  border: solid 2px #aaa;
 }
-*/
+/*end test*/
 input[type="text"] {
   height: 24px;
   border: solid 1px #aaa;
